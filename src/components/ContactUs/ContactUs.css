@@ -1,0 +1,84 @@
+.contact-us {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .contact-us h2 {
+    font-size: 24px;
+  }
+  
+  .contact-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid transparent; /* Initial border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
+    transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transition */
+  }
+  
+  /* Border hover effect */
+  .contact-us form:hover {
+    background-color: #E1D9D1;
+    /* border-color:  #4CAF50; */
+  } 
+  .contact-us label {
+    margin-bottom: 5px;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-us button {
+    padding: 10px 20px;
+    background-color:  #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Button transition */
+  }
+  
+  .contact-us button:hover {
+    background-color:  #800000;
+  }
+  
+  /* Animation */
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .contact-us form.error {
+    animation: shake 0.5s ease;
+  }
+  .contact{
+    margin-bottom: 30px;
+    
+  }
+  .contact h2{
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+  }
+  

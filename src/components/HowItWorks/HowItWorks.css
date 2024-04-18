@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .step {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .step-icon {
+    font-size: 40px;
+    background-color: #007bff;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .step h3 {
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    color: #666;
+  }
+  
+  /* Animation for step icons */
+  .step-icon {
+    animation: pulse 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+  }
+  
+  .donate, .find-blood {
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .donate:hover, .find-blood:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  .donate h3, .find-blood h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .donate p, .find-blood p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+
+
+
+
+
+
+
+

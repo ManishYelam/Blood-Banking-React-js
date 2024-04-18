@@ -1,0 +1,70 @@
+.donor-login-form {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    border-radius: 2%;
+    gap: 20px;
+  }
+  .donor-login-form {
+    box-shadow: 0 0 20px rgb(255, 254, 254);
+    transition: transform 0.3s ease;
+  }
+  .signin{
+    grid-column: 1/6;
+  }
+
+  .form-g {
+    background-color: #F5F5F5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* border: 2px solid black; */
+    padding: 60px;
+    border-radius: 2%;
+    margin-bottom: 15px;
+  }
+
+  .Sign-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+  }
+  
+  .form-g label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-g input {
+    width: 120%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-g select{
+    width: 105%;
+  }
+  .donor-login-form button {
+    display: block;
+    width: 120%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donor-login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+ 

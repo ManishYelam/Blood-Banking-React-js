@@ -1,0 +1,35 @@
+/* Define the button style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #800000;
+    border: 2px solid #800000;
+    border-top-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Add shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .button:hover {
+    background-color: #bcbcbc;
+    border-color: #bcbcbc;
+    color: #800000;
+    box-shadow: 0 0 20px rgba(224, 220, 220, 0.9);  /* Modify shadow effect on hover */
+  }
+  
+  /* Define the animation effect */
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Apply animation to the button */
+  .animated-button {
+    animation: rotate 2s linear infinite; /* Rotate animation infinitely */
+  }

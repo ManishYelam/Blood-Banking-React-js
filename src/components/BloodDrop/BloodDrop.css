@@ -1,0 +1,13 @@
+.blood-drop {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .blood-drop svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

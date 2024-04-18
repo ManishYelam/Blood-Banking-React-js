@@ -1,0 +1,45 @@
+  /* Body Styles */
+  body {
+    /* font-family: Arial, sans-serif; */
+    /* background-color: #f5f5f5; */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  /* Header Styles */
+.header {
+  background-color: #bcbcbc;
+  color: #8b0000;
+  padding: 20px;
+  text-align: center;
+}
+ 
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+}
+
+.welcome-message {
+  margin-bottom: 20px;
+}
+
+.welcome{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+
+.image{
+  width: 807px;
+  height: 330px;
+  background-image: url(/src/image/donationFact.png);
+}
+.message-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+

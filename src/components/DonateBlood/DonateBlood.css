@@ -1,0 +1,68 @@
+/* Container styles */
+.donating-process {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+/* Step styles */
+.step {
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Step icon styles */
+.step-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.step-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Step hover effect */
+.step:hover .step-icon {
+    transform: scale(1.1);
+}
+
+/* Step text styles */
+.step h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.step p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    transition: color 0.3s;
+}
+
+/* Step hover effect */
+.step:hover p {
+    color: #555;
+}
+
+.register-icon{
+    background-image: url(/src/image/register.png);
+} 
+.schedule-icon{
+    background-image: url(/src/image/schedule.png);
+}   
+.donate-icon{
+    background-image: url(/src/image/blood-donation.png);
+}  
+.thank-you-icon{
+    background-image: url(/src/image/praying.png);
+}
