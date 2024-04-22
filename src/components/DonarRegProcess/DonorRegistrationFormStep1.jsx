@@ -39,7 +39,7 @@ function DonorRegistrationFormStep1({ onNext }) {
 <h2 className='grid-1-5'>Step 1: Personal Information</h2>
   <div className="form-group grid-1-4">
     <label>Name:</label>
-    <input type="text" name="name" onChange={handleChange} placeholder='First Name'  required />{setFormData.name}
+    <input type="text" name="name" onChange={handleChange} placeholder='First Name'  required />
   </div>
 
   <div className="form-group grid-5-8" >
@@ -105,15 +105,7 @@ function DonorRegistrationFormStep1({ onNext }) {
     <label>Last Donation Date:</label>
     <input type="date" onChange={handleChange} name="lastDonationDate"   />
   </div>
-  <button className='btn-reg' type="submit" onClick={handleSubmit}>Sign Up</button>
-  {/* <div className='signup grid-6-8'>
-  <input type="text" id="mainCaptcha" disabled="disabled" autocomplete="off" /> 
-  <input type="text" id="txtInput" class="form-control" placeholder="Captcha" autocomplete="off" />
-
-  <button className='btn-reg' type="submit">Sign Up</button>
-  </div> */}
-  
-  
+ 
 </form>
 </div>
       

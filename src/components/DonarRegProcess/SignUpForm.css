@@ -1,0 +1,151 @@
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .step.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .medical-content {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    border-radius: 1%;
+  }
+  .medical-content:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+  }
+  
+  .medical-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-medical {
+    margin-bottom: 15px;
+  }
+  
+  .medical-content label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .medical-content input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* ********************************************************************* */
+  .stepper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    .step {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f0f0f0;
+    }
+    
+    .step.active {
+      background-color: #007bff;
+      color: #fff;
+    }
+    
+    .step-btn{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .step-btn button{
+      display: block;
+      width: 20%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    /* ******************************************************************************* */
+    .medical-content{
+      display: grid;
+      grid-template-columns: repeat(11, 1fr); 
+      align-items: center;
+      padding: 40px;
+      grid-row: 11;
+      grid-column: 11;
+    }
+  
+    .grid-1-4{
+      grid-column: 1/4;
+    }
+    .grid-5-8{
+      grid-column: 5/8;
+    }
+    .grid-9-12{
+      grid-column: 9/12;
+    }
+   
+    /* ******************************************************************************* */
+    .confirm-content {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+      border-radius: 1%;
+    }
+    .confirm-content:hover{
+      box-shadow: 0 0 20px rgb(255, 255, 255);
+      transition: transform 0.3s ease;
+    }
+    
+    .confirm-content div, h2, h3, p {
+      padding: 10px;
+    } 
+  
+    /* Grid Layout */
+    .confirm-content {
+      display: grid;
+      grid-template-columns: repeat(11, 1fr); 
+      align-items: center;
+      padding: 40px;
+      grid-row: 11;
+      grid-column: 11;
+      /* column-gap: 50px; */
+    }
+    .grid-1-4{
+      grid-column: 1/4;
+    }
+    .grid-5-8{
+      grid-column: 5/8;
+    }
+    .grid-9-12{
+      grid-column: 9/12;
+    }
+    
