@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './SignUpForm.css'
 function DonorRegistrationFormStep2({ onNext, onPrev }) {
   const [formData, setFormData] = useState({
     allergies: '',
@@ -25,7 +25,7 @@ function DonorRegistrationFormStep2({ onNext, onPrev }) {
 
 
   return (
-    <form className='medical-content' onSubmit={handleSubmit}>
+    <form className='donor-registration-form medical-content forms' onSubmit={handleSubmit}>
       <h2 className='grid-1-4'>Step 2: Medical History</h2>
       <div className='grid-1-4 form-medical'>
         <label htmlFor="allergies">Allergies:</label>

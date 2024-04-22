@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SignUpForm.css'
 
 function DonorRegistrationFormStep1({ onNext }) {
   const [formData, setFormData] = useState({

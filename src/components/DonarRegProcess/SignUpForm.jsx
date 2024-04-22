@@ -76,8 +76,10 @@ const PersonalDetailsForm = ({ onSubmit, onPrevious }) => {
       <h2>Step 1: Personal Details</h2>
       <DonorRegistrationFormStep1></DonorRegistrationFormStep1>
       {/* Personal details form fields */}
-      <button type="submit">Next</button>
+      <div className='button1'>
       <button type="button" onClick={onPrevious}>Previous</button>
+      <button type="submit">Next</button>
+      </div>
     </form>
   );
 };
@@ -99,8 +101,10 @@ const MedicalHistoryForm = ({ onSubmit, onPrevious }) => {
       <h2>Step 2: Medical History</h2>
       <DonorRegistrationFormStep2></DonorRegistrationFormStep2>
       {/* Medical history form fields */}
-      <button type="submit">Next</button>
+      <div className='button1'>
       <button type="button" onClick={onPrevious}>Previous</button>
+      <button type="submit">Next</button>
+      </div>
     </form>
   );
 };
@@ -111,8 +115,10 @@ const ConfirmationForm = ({ personalDetails, medicalHistory, onConfirm, onPrevio
       <h2>Step 3: Confirmation</h2>
       <DonorRegistrationFormStep3></DonorRegistrationFormStep3>
       {/* Display personal details and medical history */}
-      <button onClick={onConfirm}>Confirm & Submit</button>
+      <div className='button1'>
       <button onClick={onPrevious}>Previous</button>
+      <button onClick={onConfirm}>Confirm & Submit</button>
+      </div>
     </div>
   );
 };

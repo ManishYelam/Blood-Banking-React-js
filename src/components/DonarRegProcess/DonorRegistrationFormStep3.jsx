@@ -4,7 +4,7 @@ function DonorRegistrationFormStep3({ formData, onPrev, onSubmit }) {
 
 
   return (
-    <div className='confirm-content'>
+    <div className='donor-registration-form confirm-content forms'>
       <h2 className='grid-1-4'>Step 3: Confirmation</h2>
       <p className='grid-1-4'>Please review your information:</p>
 
