@@ -1,0 +1,114 @@
+{
+    "donors": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "gender": "Male",
+        "father_name": "abc",
+        "blood_group": "O+",
+        "weight": 54,
+        "contact_number": "+1234567890",
+        "email": "john.doe@example.com",
+        "state": "Maharashatra",
+        "district": "Ahemednagar",
+        "address": "123 Main Street, Cityville",
+        "pin_code": 413723,
+        "last_donation_date": "2024-05-15"
+      },
+      {
+        "id": 2,
+        "name": "John Doe",
+        "age": 30,
+        "gender": "Male",
+        "father_name": "abc",
+        "blood_group": "O+",
+        "weight": 54,
+        "contact_number": "+1234567890",
+        "email": "john.doe@example.com",
+        "state": "Maharashatra",
+        "district": "Ahemednagar",
+        "address": "123 Main Street, Cityville",
+        "pin_code": 413723,
+        "last_donation_date": "2024-05-15"
+      }
+    ],
+    "medical_history": [
+      {
+        "donor_id": 1,
+        "medical_conditions": ["Hypertension", "Diabetes"],
+        "medications": ["Aspirin", "Insulin"],
+        "past_surgeries":["Hypertension", "Diabetes"],
+        "Chronic_conditions": ["Aspirin", "Insulin"],"infection_diseases": ["Aspirin", "Insulin"]
+      },
+      {
+        "donor_id": 2,
+        "medical_conditions": ["Hypertension", "Diabetes"],
+        "medications": ["Aspirin", "Insulin"],
+        "past_surgeries":["Hypertension", "Diabetes"],
+        "Chronic_conditions": ["Aspirin", "Insulin"],
+        "infection_diseases": ["Aspirin", "Insulin"]
+      }
+    ],
+    "blood_inventory":{
+        "A+": 20,
+        "A-": 15,
+        "B+": 10,
+        "B-": 5,
+        "AB+": 30,
+        "AB-": 25,
+        "O+": 20,
+        "O-": 10
+    },
+    "bloodRequests": [
+    {
+      "id": 1,
+      "patientName": "Emily Johnson",
+      "bloodType": "AB+",
+      "hospital": "City Hospital",
+      "contact": "456-789-0123",
+      "requestingDate": "2023-03-10",
+      "providingDate": "2023-03-12",
+      "status": "Fulfilled"
+    },
+    {
+      "id": 2,
+      "patientName": "Michael Brown",
+      "bloodType": "B-",
+      "hospital": "County Hospital",
+      "contact": "789-012-3456",
+      "requestingDate": "2023-04-05",
+      "providingDate": "",
+      "status": "Pending"
+    }
+  ],
+    "provided_blood": [
+      {
+        "donor_id": 1,
+        "donation_date": "2024-06-01",
+        "recipient": "Bob Williams",
+        "hospital": "Town Clinic",
+        "blood_group": "O+",
+        "units_donated": 3
+      }
+    ],
+    "bloodDonationCamps": [
+    {
+      "id": 1,
+      "name": "Spring Blood Drive",
+      "date": "2023-05-15",
+      "location": "Central Park",
+      "organizer": "Red Cross Society",
+      "contact": "info@redcross.org"
+    },
+    {
+      "id": 2,
+      "name": "Summer Blood Donation Camp",
+      "date": "2023-07-20",
+      "location": "City Hall",
+      "organizer": "Local Health Department",
+      "contact": "healthdept@city.gov"
+    }
+  ]
+}
+  

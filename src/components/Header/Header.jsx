@@ -5,13 +5,11 @@ import DonateButton from '../DonateButton/DonateButton';
 
 function Header() {
 
-
-
-
   return (
     <>
      <div className="welcome font-b">
       <div className="welcome-message ">
+
         <div className="message-one d-flex-col font-b">
           <h1 className='d-flex p-20'>Welcome to Blood Banking</h1>
           <h2>Donate blood and save lives</h2>

@@ -1,11 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './DonarSignIn.css'
 import CheckIcon from '../Icons/CheckIcon'
-function DonarSignIn() {
-
-  function RegisterNow(){
-      console.log("register");
-  }
+function DonarSignIn({toggleRegistration}) {
 
 
   return (
@@ -25,7 +21,7 @@ function DonarSignIn() {
               <div className='signup'>
                 <button className='btn-reg' type="submit">Generate OTP</button>
               </div> 
-            </div>  
+            </div>
           </div>
         </div>
       </div>
@@ -35,7 +31,7 @@ function DonarSignIn() {
         <h4><CheckIcon/> View/Add your Donations</h4>
         <h4><CheckIcon/> Update your Profile</h4>
         <h4><CheckIcon/> Manage your Account</h4>
-        <button className='btn-reg' type="submit" onClick={RegisterNow}>Registor Now</button>
+        <button onClick={toggleRegistration} className='btn-reg' type="submit" >Registor Now</button>
       </form>
           
       </form>

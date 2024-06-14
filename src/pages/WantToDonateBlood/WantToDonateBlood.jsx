@@ -1,21 +1,28 @@
+import { useState } from 'react';
 import DonarSignIn from '../../components/DonarSignIn/DonarSignIn';
-// import DonarSignUp from '../../components/DonarSignUp/PersonalInformation';
-import Footer from '../../components/Footer/Footer';
 import SignUpForm from '../../components/DonarRegProcess/SignUpForm';
-// import DonorRegistrationProcess from '../../components/Stepper/DonorRegistrationProcess';
+import Footer from '../../components/Footer/Footer';
+
 import './WantToDonateBlood.css';
 
 const WantToDonateBlood = () => {
+
+	const [DonarRegistration, setDonarRegistration] = useState(true);
+
+	const toggleRegistration = () => {
+		setDonarRegistration(!DonarRegistration);
+	};
+
 	return (
 		<>
-		<DonarSignIn />
-		<SignUpForm></SignUpForm>
+		
+		{DonarRegistration ? (<DonarSignIn toggleRegistration={toggleRegistration} />) : (<SignUpForm />)}
+
+		{/* <DonarSignIn></DonarSignIn>
+		<SignUpForm></SignUpForm> */}
 	
-		{/* <DonarSignUp />  */}
 		<Footer />
-		{/* <DonarSignUp /> */}
-		{/* <DonarUpdate />  */}
-		{/* <Stepper /> */}
+		
 		</>
 	)
 }

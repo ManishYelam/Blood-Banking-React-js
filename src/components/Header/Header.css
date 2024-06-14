@@ -32,9 +32,10 @@
 
 
 .image{
-  width: 807px;
-  height: 330px;
-  background-image: url(/src/image/donationFact.png);
+  width: 400px;
+  height: 164px;
+  background-image: url(/src/image/donationFact1.png);
+  background-repeat: no-repeat;
 }
 .message-two{
   display: flex;
